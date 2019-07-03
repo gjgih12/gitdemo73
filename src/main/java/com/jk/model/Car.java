@@ -5,6 +5,15 @@ public class Car {
     private Integer carId;
     private String carName;
     private String carInfo;
+    private Integer carPrices;
+
+    public Integer getCarPrices() {
+        return carPrices;
+    }
+
+    public void setCarPrices(Integer carPrices) {
+        this.carPrices = carPrices;
+    }
 
     public String getCarInfo() {
         return carInfo;
