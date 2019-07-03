@@ -8,6 +8,15 @@ public class Car {
     private Integer carPrices;
     private String carbai;
     private String carHei;
+    private String carhuang;
+
+    public String getCarhuang() {
+        return carhuang;
+    }
+
+    public void setCarhuang(String carhuang) {
+        this.carhuang = carhuang;
+    }
 
     public String getCarHei() {
         return carHei;
