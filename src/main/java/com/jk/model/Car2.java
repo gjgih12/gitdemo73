@@ -7,6 +7,7 @@ public class Car2 {
     private String bb2;
 
     private String bb3;
+    private String bbz;
 
 
 }
