@@ -4,7 +4,15 @@ public class Car {
 
     private Integer carId;
     private String carName;
+    private String carInfo;
 
+    public String getCarInfo() {
+        return carInfo;
+    }
+
+    public void setCarInfo(String carInfo) {
+        this.carInfo = carInfo;
+    }
 
     public Integer getCarId() {
         return carId;
